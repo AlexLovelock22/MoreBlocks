@@ -1,0 +1,7 @@
+// 1.21	2024-08-15T21:06:04.7288744	MoreBlocks/Tags for minecraft:block
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\moreblocks\tags\block\incorrect_for_example_tool.json
+5705813fdc2ee4b59853eb5178fd9a553399556c data\minecraft\tags\block\flower_pots.json
+37b6faf47b36f5bf162ded5a565ce2b53363aba1 data\minecraft\tags\block\needs_iron_tool.json
+af43b0d8d5a15aa8b8ff77492d1694b968ca86e2 data\minecraft\tags\block\small_flowers.json
+a13e0a2ea813fbd7e6f7e04223915ea1edd9ab68 data\moreblocks\tags\block\example.json
+37b6faf47b36f5bf162ded5a565ce2b53363aba1 data\minecraft\tags\block\mineable\pickaxe.json

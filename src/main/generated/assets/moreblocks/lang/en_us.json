@@ -1,0 +1,21 @@
+{
+  "block.moreblocks.example_deepslate_ore": "Example Deepslate Ore",
+  "block.moreblocks.example_end_ore": "Example End Ore",
+  "block.moreblocks.example_flower": "Example Flower",
+  "block.moreblocks.example_flower_pot": "Example Flower Pot",
+  "block.moreblocks.example_nether_ore": "Example Nether Ore",
+  "block.moreblocks.example_overworld_ore": "Example Ore",
+  "block.moreblocks.smooth_sandstone_wall": "Smooth Sandstone Wall",
+  "item.moreblocks.banana": "Banana",
+  "item.moreblocks.example_axe": "Example Axe",
+  "item.moreblocks.example_boots": "Example Boots",
+  "item.moreblocks.example_chestplate": "Example Chestplate",
+  "item.moreblocks.example_helmet": "Example Helmet",
+  "item.moreblocks.example_hoe": "Example Hoe",
+  "item.moreblocks.example_leggings": "Example Leggings",
+  "item.moreblocks.example_pickaxe": "Example Pickaxe",
+  "item.moreblocks.example_shovel": "Example Shovel",
+  "item.moreblocks.example_sword": "Example Sword",
+  "item.moreblocks.stone_wall": "Stone Wall",
+  "itemGroup.moreblocks.more_blocks": "More Blocks"
+}

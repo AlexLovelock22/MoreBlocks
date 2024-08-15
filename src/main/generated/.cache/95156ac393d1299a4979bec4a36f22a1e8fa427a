@@ -1,0 +1,8 @@
+// 1.21	2024-08-15T21:06:04.7278762	MoreBlocks/Block Loot Tables
+9452da274a242855464cf095faedcc42cfeedef6 data\moreblocks\loot_table\blocks\example_flower_pot.json
+e5db52114e8ac60c27ab26e15aaa78011d885f8c data\moreblocks\loot_table\blocks\example_nether_ore.json
+747ef7f9b9bd1e57a7ca23e20e6e43d9f0633597 data\moreblocks\loot_table\blocks\example_end_ore.json
+d6e5a669cfd481d54399238fa825206a2f9b6a50 data\moreblocks\loot_table\blocks\example_overworld_ore.json
+3873f0397cd2b56eabfd66e86dfc94434c539d4c data\moreblocks\loot_table\blocks\example_deepslate_ore.json
+50c6bb62dbd0c563755414dd56823d490b5baaf4 data\moreblocks\loot_table\blocks\smooth_sandstone_wall.json
+8349e765bc1706f225f7634340ca92205a42b533 data\moreblocks\loot_table\blocks\example_flower.json

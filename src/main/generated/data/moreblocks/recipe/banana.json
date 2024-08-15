@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "moreblocks:example_deepslate_ore"
+    }
+  ],
+  "result": {
+    "count": 5,
+    "id": "moreblocks:banana"
+  }
+}

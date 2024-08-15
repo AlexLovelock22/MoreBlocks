@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "moreblocks",
+	"version": "${version}",
+	"name": "MoreBlocks",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Alex Lovelock"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/moreblocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"alexlovelock22.github.io.MoreBlocks"
+		],
+		"client": [
+			"alexlovelock22.github.io.MoreBlocksClient"
+		],
+		"fabric-datagen": [
+			"alexlovelock22.github.io.MoreBlocksDataGenerator"
+		]
+	},
+	"mixins": [
+		"moreblocks.mixins.json",
+		{
+			"config": "moreblocks.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "example",
+  "ingredient": {
+    "item": "moreblocks:example_overworld_ore"
+  },
+  "result": {
+    "id": "moreblocks:banana"
+  }
+}
