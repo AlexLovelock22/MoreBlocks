@@ -1,0 +1,1 @@
+Learning minecraft modding using Fabric Moadloader. I intend to add "Missing blocks", which for example may be smooth sandstone stairs or walls, not something like dirt stairs. The aim of this is to simply give builders more variety whilst still retaining the feel of minecraft.
