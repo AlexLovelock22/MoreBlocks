@@ -16,6 +16,33 @@ public class MoreBlocksModelProvider extends FabricModelProvider {
         super(output);
     }
 
+    // Template for block sets
+    // Replace F with FamilyName e.g. SmoothSandstoneWallsFamily.
+    // Replace T with Block texture e.g. Blocks.SMOOTH_SANDSTONE or BlockInit.<BlockName>
+    // Replace B with the Block having the model / texture applied to it from T.
+
+    /*
+
+    EXAMPLE:
+    var F = new BlockFamily.Builder(Blocks.T)
+            .wall(BlockInit.B)
+            .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(F.getBaseBlock())
+                .family(F);
+    */
+
+
+    /*
+    var SmoothSandstoneWallsFamily = new BlockFamily.Builder(Blocks.SMOOTH_SANDSTONE)
+            .wall(BlockInit.WALL_SANDSTONE_SMOOTH)
+            .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(SmoothSandstoneWallsFamily.getBaseBlock())
+                .family(SmoothSandstoneWallsFamily);
+    */
+
+
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.SMOOTH_SANDSTONE_WALL);
@@ -57,12 +84,20 @@ public class MoreBlocksModelProvider extends FabricModelProvider {
                 .family(exampleFamily);
 
 
-        var moreWallsFamily = new BlockFamily.Builder(Blocks.SMOOTH_SANDSTONE)
+        var SmoothSandstoneWallsFamily = new BlockFamily.Builder(Blocks.SMOOTH_SANDSTONE)
                 .wall(BlockInit.WALL_SANDSTONE_SMOOTH)
                 .build();
 
-        blockStateModelGenerator.registerCubeAllModelTexturePool(moreWallsFamily.getBaseBlock())
-                .family(moreWallsFamily);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(SmoothSandstoneWallsFamily.getBaseBlock())
+                .family(SmoothSandstoneWallsFamily);
+
+        var SmoothStoneWallFamily = new BlockFamily.Builder(Blocks.STONE)
+                .wall(BlockInit.WALL_STONE)
+                .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(SmoothStoneWallFamily.getBaseBlock())
+                .family(SmoothStoneWallFamily);
+
 
     }
 

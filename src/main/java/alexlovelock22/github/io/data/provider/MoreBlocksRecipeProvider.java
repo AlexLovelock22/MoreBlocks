@@ -201,6 +201,13 @@ public class MoreBlocksRecipeProvider extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Blocks.SMOOTH_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_STONE)
+                .input('S', Blocks.STONE)
+                .pattern("SSS")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.STONE), FabricRecipeProvider.conditionsFromItem(Blocks.STONE))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.TRANSPORTATION, ItemInit.EXAMPLE_CHEST_BOAT)
                 .input(ItemInit.EXAMPLE_BOAT)
                 .input(ConventionalItemTags.WOODEN_CHESTS)

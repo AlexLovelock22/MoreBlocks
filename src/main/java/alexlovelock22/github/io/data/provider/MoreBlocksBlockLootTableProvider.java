@@ -65,6 +65,7 @@ public class MoreBlocksBlockLootTableProvider extends FabricBlockLootTableProvid
 
         // More Walls
         addDrop(BlockInit.WALL_SANDSTONE_SMOOTH);
+        addDrop(BlockInit.WALL_STONE);
 
     }
 }

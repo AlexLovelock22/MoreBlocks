@@ -246,6 +246,15 @@ public class BlockInit {
                     .sounds(BlockSoundGroup.STONE)
                     .burnable()));
 
+    public static final WallBlock WALL_STONE = registerWithItem("wall_stone",
+            new WallBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.GOLD)
+                    .solid()
+                    .instrument(NoteBlockInstrument.BANJO)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .burnable()));
+
 
     public static <T extends Block> T register(String name, T block) {
         return Registry.register(Registries.BLOCK, MoreBlocks.id(name), block);

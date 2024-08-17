@@ -101,5 +101,8 @@ public class MoreBlocksBlockTagProvider extends FabricTagProvider.BlockTagProvid
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(BlockInit.WALL_SANDSTONE_SMOOTH);
 
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(BlockInit.WALL_STONE);
+
     }
 }

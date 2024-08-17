@@ -73,6 +73,7 @@ public class MoreBlocksEnglishLanguageProvider extends FabricLanguageProvider {
 
 
         translationBuilder.add(BlockInit.WALL_SANDSTONE_SMOOTH, "Smooth Sandstone Wall");
+        translationBuilder.add(BlockInit.WALL_STONE, "Stone Wall");
 
         addText(translationBuilder, ItemGroupInit.MORE_BLOCKS_TITLE, "More Blocks");
     }

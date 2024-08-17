@@ -1,5 +1,6 @@
-// 1.21	2024-08-17T14:35:59.4850418	MoreBlocks/Block Loot Tables
+// 1.21	2024-08-17T15:10:36.3370703	MoreBlocks/Block Loot Tables
 3e66dbde1e1ee3acee69aa985a7db37576f4a1bf data\moreblocks\loot_table\blocks\example_pressure_plate.json
+565f11de5214548b3365f62a554f948aeb8be130 data\moreblocks\loot_table\blocks\wall_stone.json
 228b1da66b431bcc0e2a045d677ccaa6c7773a73 data\moreblocks\loot_table\blocks\example_fence.json
 8349e765bc1706f225f7634340ca92205a42b533 data\moreblocks\loot_table\blocks\example_flower.json
 8f88be94ce4a0f39ffff0ee6a24b60375032785c data\moreblocks\loot_table\blocks\stripped_example_log.json

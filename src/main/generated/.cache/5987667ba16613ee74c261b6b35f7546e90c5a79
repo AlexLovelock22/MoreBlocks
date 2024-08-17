@@ -1,18 +1,18 @@
-// 1.21	2024-08-17T14:35:59.4850418	MoreBlocks/Tags for minecraft:block
+// 1.21	2024-08-17T15:10:36.33807	MoreBlocks/Tags for minecraft:block
 357d1bf540b6dcd920cf94b52774f691497f1e7e data\minecraft\tags\block\wooden_trapdoors.json
 f1a1d8e7167c82310993c610660b07fdbb507ddf data\minecraft\tags\block\wall_signs.json
 3c9632d242a70843e621956bb287868e8b180827 data\minecraft\tags\block\wooden_fences.json
 5b2b9cc91d1465cada650e36d77b3c3a5f4ab4bc data\minecraft\tags\block\logs_that_burn.json
-e716a2bdff8373991ae02ee43202b1b485f08d3d data\minecraft\tags\block\walls.json
+c463a1c9bb229ad63dd98e37cf95bd9c76445527 data\minecraft\tags\block\walls.json
 5705813fdc2ee4b59853eb5178fd9a553399556c data\minecraft\tags\block\flower_pots.json
-a13e0a2ea813fbd7e6f7e04223915ea1edd9ab68 data\moreblocks\tags\block\example.json
 af43b0d8d5a15aa8b8ff77492d1694b968ca86e2 data\minecraft\tags\block\small_flowers.json
+a13e0a2ea813fbd7e6f7e04223915ea1edd9ab68 data\moreblocks\tags\block\example.json
 20f05e9c129b3f8bf5353e22bea777db90249d1b data\minecraft\tags\block\wooden_slabs.json
 0f3f12913b795a17360eab38a498e94e15f03357 data\minecraft\tags\block\leaves.json
 37b6faf47b36f5bf162ded5a565ce2b53363aba1 data\minecraft\tags\block\mineable\pickaxe.json
 e89906068b8d8cf593f5b322716208c2469bb73b data\minecraft\tags\block\saplings.json
-87bac147db7bee450ebe378d441511044d0ebdef data\minecraft\tags\block\standing_signs.json
 440cc08bc34209db9e317a6b7c84bbc71cfb906b data\minecraft\tags\block\wooden_stairs.json
+87bac147db7bee450ebe378d441511044d0ebdef data\minecraft\tags\block\standing_signs.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\moreblocks\tags\block\incorrect_for_example_tool.json
 76f4e140e4e1a6b0313492fd284903ee80f6d3af data\minecraft\tags\block\wooden_doors.json
 b1f628f0dacd59be0644a313b4aa07bc76d58233 data\minecraft\tags\block\wooden_pressure_plates.json
