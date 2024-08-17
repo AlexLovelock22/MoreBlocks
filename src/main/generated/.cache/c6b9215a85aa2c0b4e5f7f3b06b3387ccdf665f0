@@ -1,4 +1,4 @@
-// 1.21	2024-08-16T21:36:16.0299967	MoreBlocks/Recipes
+// 1.21	2024-08-17T14:35:59.4870418	MoreBlocks/Recipes
 cc0609ffd273d9df03a0ab696a8e9e00eb51e21d data\moreblocks\advancement\recipes\combat\example_leggings.json
 1d6a14e90d639b27985408feb81ba10b6ba46c86 data\moreblocks\recipe\example_trapdoor.json
 b281bb57ab703af4d26ca74f78c36d558df4fa28 data\moreblocks\advancement\recipes\misc\banana.json
@@ -33,6 +33,7 @@ d6a5101d839fa596feed10d0a43450650010a5a5 data\moreblocks\advancement\recipes\com
 6e0de1284ae53fbf4413c300f340f6004d431ba6 data\moreblocks\advancement\recipes\misc\banana_from_smelting_example_deepslate_ore.json
 a2918d0d8ad7e5bf8dd450110a4a6d4049525c0b data\moreblocks\recipe\banana_from_blasting_example_overworld_ore.json
 ccc7db21ff803a5c029898240486d876b3e31c89 data\moreblocks\recipe\example_stairs.json
+6ca7075536484bc16ba613bf160c9660e6a82e06 data\moreblocks\recipe\wall_sandstone_smooth.json
 8356488d4270e66a092072e83594d217fce93272 data\moreblocks\advancement\recipes\building_blocks\example_deepslate_ore.json
 e2ac193d0b9aae2aeca254b4c47b2e674cad6dbf data\moreblocks\recipe\example_fence.json
 482424ec16a3b6101414ea5c0948bfd3af21d723 data\moreblocks\recipe\example_button.json
@@ -55,3 +56,4 @@ de9dbde473d1e518d02c332055fa14be0f1d8752 data\moreblocks\advancement\recipes\bui
 dd3a05e6c6922fdb2c7eec42edb52b87f4c8291e data\moreblocks\advancement\recipes\building_blocks\example_slab.json
 6573d8ebeba9c27158034578ec887f35c9d84e42 data\moreblocks\recipe\example_hanging_sign.json
 d654588139587b94b1a486e55f9c718f5efd4a30 data\moreblocks\advancement\recipes\misc\banana_from_blasting_example_deepslate_ore.json
+e0e87616f08b7cca329b04414e2db718cbf09087 data\moreblocks\advancement\recipes\building_blocks\wall_sandstone_smooth.json

@@ -71,6 +71,9 @@ public class MoreBlocksEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ItemInit.EXAMPLE_CHEST_BOAT, "Example Chest Boat");
         translationBuilder.add(TagList.Items.EXAMPLE_LOGS, "Example Logs");
 
+
+        translationBuilder.add(BlockInit.WALL_SANDSTONE_SMOOTH, "Smooth Sandstone Wall");
+
         addText(translationBuilder, ItemGroupInit.MORE_BLOCKS_TITLE, "More Blocks");
     }
 }

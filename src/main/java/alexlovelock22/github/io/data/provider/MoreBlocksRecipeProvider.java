@@ -7,6 +7,7 @@ import alexlovelock22.github.io.list.enums.TagList;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.fabricmc.fabric.api.tag.convention.v2.ConventionalItemTags;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.family.BlockFamily;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.RecipeProvider;
@@ -191,6 +192,13 @@ public class MoreBlocksRecipeProvider extends FabricRecipeProvider {
                 .pattern("T T")
                 .pattern("TTT")
                 .criterion(FabricRecipeProvider.hasItem(BlockInit.EXAMPLE_PLANKS), FabricRecipeProvider.conditionsFromItem(BlockInit.EXAMPLE_PLANKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_SANDSTONE_SMOOTH)
+                .input('S', Blocks.SMOOTH_SANDSTONE)
+                .pattern("SSS")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.SMOOTH_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.TRANSPORTATION, ItemInit.EXAMPLE_CHEST_BOAT)

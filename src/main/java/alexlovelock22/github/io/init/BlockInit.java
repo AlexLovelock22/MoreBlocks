@@ -109,6 +109,7 @@ public class BlockInit {
                             .ticksRandomly()
                             .strength(0.0F)
                             .sounds(BlockSoundGroup.ANVIL)
+                            .noCollision()
                             .nonOpaque()
                             .allowsSpawning(Blocks::canSpawnOnLeaves)
                             .suffocates(Blocks::never)
@@ -233,6 +234,17 @@ public class BlockInit {
                             .noCollision()
                             .strength(1.0F)
                             .burnable()));
+
+
+
+    public static final WallBlock WALL_SANDSTONE_SMOOTH = registerWithItem("wall_sandstone_smooth",
+            new WallBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.GOLD)
+                    .solid()
+                    .instrument(NoteBlockInstrument.BANJO)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .burnable()));
 
 
     public static <T extends Block> T register(String name, T block) {

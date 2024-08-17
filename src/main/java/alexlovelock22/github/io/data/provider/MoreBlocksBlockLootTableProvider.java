@@ -63,5 +63,8 @@ public class MoreBlocksBlockLootTableProvider extends FabricBlockLootTableProvid
         addDrop(BlockInit.EXAMPLE_HANGING_SIGN, ItemInit.EXAMPLE_HANGING_SIGN);
         addDrop(BlockInit.EXAMPLE_WALL_HANGING_SIGN, ItemInit.EXAMPLE_HANGING_SIGN);
 
+        // More Walls
+        addDrop(BlockInit.WALL_SANDSTONE_SMOOTH);
+
     }
 }

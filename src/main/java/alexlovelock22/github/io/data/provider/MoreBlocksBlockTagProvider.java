@@ -10,6 +10,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.concurrent.CompletableFuture;
@@ -96,6 +97,9 @@ public class MoreBlocksBlockTagProvider extends FabricTagProvider.BlockTagProvid
 
         getOrCreateTagBuilder(BlockTags.WALL_HANGING_SIGNS)
                 .add(BlockInit.EXAMPLE_WALL_HANGING_SIGN);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(BlockInit.WALL_SANDSTONE_SMOOTH);
 
     }
 }

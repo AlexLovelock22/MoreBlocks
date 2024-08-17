@@ -104,6 +104,5 @@ public class MoreBlocksItemTagProvider extends FabricTagProvider<Item> {
         getOrCreateTagBuilder(ItemTags.CHEST_BOATS)
                 .add(ItemInit.EXAMPLE_CHEST_BOAT);
 
-
     }
 }

@@ -4,6 +4,7 @@ import alexlovelock22.github.io.init.BlockInit;
 import alexlovelock22.github.io.init.ItemInit;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
@@ -50,8 +51,18 @@ public class MoreBlocksModelProvider extends FabricModelProvider {
                 .unlockCriterionName("has_planks")
                 .build();
 
+
+
         blockStateModelGenerator.registerCubeAllModelTexturePool(exampleFamily.getBaseBlock())
                 .family(exampleFamily);
+
+
+        var moreWallsFamily = new BlockFamily.Builder(Blocks.SMOOTH_SANDSTONE)
+                .wall(BlockInit.WALL_SANDSTONE_SMOOTH)
+                .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(moreWallsFamily.getBaseBlock())
+                .family(moreWallsFamily);
 
     }
 
