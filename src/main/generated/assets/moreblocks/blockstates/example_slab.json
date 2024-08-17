@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "moreblocks:block/example_slab"
+    },
+    "type=double": {
+      "model": "moreblocks:block/example_planks"
+    },
+    "type=top": {
+      "model": "moreblocks:block/example_slab_top"
+    }
+  }
+}

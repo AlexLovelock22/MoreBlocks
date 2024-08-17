@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_moreblocks:example_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#moreblocks:example_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "moreblocks:example_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_moreblocks:example_logs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "moreblocks:example_planks"
+    ]
+  }
+}

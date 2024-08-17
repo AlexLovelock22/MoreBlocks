@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "moreblocks:block/example_door_bottom",
+    "top": "moreblocks:block/example_door_top"
+  }
+}
