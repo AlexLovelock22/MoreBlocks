@@ -1,7 +1,22 @@
-// 1.21	2024-08-15T21:06:04.7288744	MoreBlocks/Tags for minecraft:block
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\moreblocks\tags\block\incorrect_for_example_tool.json
+// 1.21	2024-08-16T21:36:16.0279959	MoreBlocks/Tags for minecraft:block
+357d1bf540b6dcd920cf94b52774f691497f1e7e data\minecraft\tags\block\wooden_trapdoors.json
+f1a1d8e7167c82310993c610660b07fdbb507ddf data\minecraft\tags\block\wall_signs.json
+3c9632d242a70843e621956bb287868e8b180827 data\minecraft\tags\block\wooden_fences.json
+5b2b9cc91d1465cada650e36d77b3c3a5f4ab4bc data\minecraft\tags\block\logs_that_burn.json
 5705813fdc2ee4b59853eb5178fd9a553399556c data\minecraft\tags\block\flower_pots.json
-37b6faf47b36f5bf162ded5a565ce2b53363aba1 data\minecraft\tags\block\needs_iron_tool.json
 af43b0d8d5a15aa8b8ff77492d1694b968ca86e2 data\minecraft\tags\block\small_flowers.json
 a13e0a2ea813fbd7e6f7e04223915ea1edd9ab68 data\moreblocks\tags\block\example.json
+20f05e9c129b3f8bf5353e22bea777db90249d1b data\minecraft\tags\block\wooden_slabs.json
+0f3f12913b795a17360eab38a498e94e15f03357 data\minecraft\tags\block\leaves.json
 37b6faf47b36f5bf162ded5a565ce2b53363aba1 data\minecraft\tags\block\mineable\pickaxe.json
+e89906068b8d8cf593f5b322716208c2469bb73b data\minecraft\tags\block\saplings.json
+440cc08bc34209db9e317a6b7c84bbc71cfb906b data\minecraft\tags\block\wooden_stairs.json
+87bac147db7bee450ebe378d441511044d0ebdef data\minecraft\tags\block\standing_signs.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\moreblocks\tags\block\incorrect_for_example_tool.json
+76f4e140e4e1a6b0313492fd284903ee80f6d3af data\minecraft\tags\block\wooden_doors.json
+b1f628f0dacd59be0644a313b4aa07bc76d58233 data\minecraft\tags\block\wooden_pressure_plates.json
+37b6faf47b36f5bf162ded5a565ce2b53363aba1 data\minecraft\tags\block\needs_iron_tool.json
+38629169bbe0b60349f3f431bcb8db0dbd010245 data\minecraft\tags\block\wooden_buttons.json
+227c8b9640ca67c168833dde4016988ad83875a8 data\minecraft\tags\block\wall_hanging_signs.json
+8e5e314d9e0499f279d01686a9e6eefca00ab746 data\moreblocks\tags\block\example_logs.json
+1facf1e74192ab93c9f5850d777012dd9151c95c data\minecraft\tags\block\ceiling_hanging_signs.json

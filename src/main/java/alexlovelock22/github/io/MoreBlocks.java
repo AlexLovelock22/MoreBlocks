@@ -1,9 +1,6 @@
 package alexlovelock22.github.io;
 
-import alexlovelock22.github.io.init.ArmorMaterialInit;
-import alexlovelock22.github.io.init.BlockInit;
-import alexlovelock22.github.io.init.ItemGroupInit;
-import alexlovelock22.github.io.init.ItemInit;
+import alexlovelock22.github.io.init.*;
 import alexlovelock22.github.io.init.worldgen.BiomeModificationInit;
 import net.fabricmc.api.ModInitializer;
 
@@ -29,6 +26,7 @@ public class MoreBlocks implements ModInitializer {
 		ItemGroupInit.load();
 		BiomeModificationInit.load();
 		ArmorMaterialInit.load();
+		BoatInit.load();
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
 			entries.addAfter(Items.PUMPKIN_PIE, ItemInit.BANANA);

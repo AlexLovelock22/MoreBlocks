@@ -4,6 +4,7 @@ import alexlovelock22.github.io.MoreBlocks;
 import alexlovelock22.github.io.init.BlockInit;
 import alexlovelock22.github.io.init.ItemGroupInit;
 import alexlovelock22.github.io.init.ItemInit;
+import alexlovelock22.github.io.list.enums.TagList;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -47,6 +48,28 @@ public class MoreBlocksEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ItemInit.EXAMPLE_BOOTS, "Example Boots");
         translationBuilder.add(BlockInit.EXAMPLE_FLOWER, "Example Flower");
         translationBuilder.add(BlockInit.EXAMPLE_FLOWER_POT, "Example Flower Pot");
+
+        // Wood Set
+        translationBuilder.add(BlockInit.EXAMPLE_LOG, "Example Log");
+        translationBuilder.add(BlockInit.STRIPPED_EXAMPLE_LOG, "Stripped Example Log");
+        translationBuilder.add(BlockInit.EXAMPLE_WOOD, "Example Wood");
+        translationBuilder.add(BlockInit.STRIPPED_EXAMPLE_WOOD, "Stripped Example Wood");
+        translationBuilder.add(BlockInit.EXAMPLE_LEAVES, "Example Leaves");
+        translationBuilder.add(BlockInit.EXAMPLE_SAPLING, "Example Sapling");
+        translationBuilder.add(BlockInit.EXAMPLE_PLANKS, "Example Planks");
+        translationBuilder.add(BlockInit.EXAMPLE_SLAB, "Example Slab");
+        translationBuilder.add(BlockInit.EXAMPLE_STAIRS, "Example Stairs");
+        translationBuilder.add(BlockInit.EXAMPLE_FENCE, "Example Fence");
+        translationBuilder.add(BlockInit.EXAMPLE_FENCE_GATE, "Example Fence Gate");
+        translationBuilder.add(BlockInit.EXAMPLE_DOOR, "Example Door");
+        translationBuilder.add(BlockInit.EXAMPLE_TRAPDOOR, "Example Trapdoor");
+        translationBuilder.add(BlockInit.EXAMPLE_BUTTON, "Example Button");
+        translationBuilder.add(BlockInit.EXAMPLE_PRESSURE_PLATE, "Example Pressure Plate");
+        translationBuilder.add(ItemInit.EXAMPLE_SIGN, "Example Sign");
+        translationBuilder.add(ItemInit.EXAMPLE_HANGING_SIGN, "Example Hanging Sign");
+        translationBuilder.add(ItemInit.EXAMPLE_BOAT, "Example Boat");
+        translationBuilder.add(ItemInit.EXAMPLE_CHEST_BOAT, "Example Chest Boat");
+        translationBuilder.add(TagList.Items.EXAMPLE_LOGS, "Example Logs");
 
         addText(translationBuilder, ItemGroupInit.MORE_BLOCKS_TITLE, "More Blocks");
     }

@@ -3,6 +3,8 @@ package alexlovelock22.github.io.init;
 import alexlovelock22.github.io.MoreBlocks;
 import alexlovelock22.github.io.list.FoodList;
 import alexlovelock22.github.io.list.enums.MoreBlocksToolMaterials;
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
+import com.terraformersmc.terraform.boat.impl.item.TerraformBoatItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -53,6 +55,20 @@ public class ItemInit {
             new ArmorItem(ArmorMaterialInit.EXAMPLE, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(45))
     ));
+
+    public static final SignItem EXAMPLE_SIGN = register("example_sign",
+            new SignItem(new Item.Settings().maxCount(16), BlockInit.EXAMPLE_SIGN, BlockInit.EXAMPLE_WALL_SIGN));
+
+    public static final HangingSignItem EXAMPLE_HANGING_SIGN = register("example_hanging_sign",
+           new HangingSignItem(BlockInit.EXAMPLE_HANGING_SIGN, BlockInit.EXAMPLE_WALL_HANGING_SIGN, new Item.Settings().maxCount(16)));
+
+    public static final Item EXAMPLE_BOAT =
+            TerraformBoatItemHelper.registerBoatItem(BoatInit.EXAMPLE_BOAT_ID, BoatInit.EXAMPLE_BOAT_KEY, false);
+
+    public static final Item EXAMPLE_CHEST_BOAT =
+            TerraformBoatItemHelper.registerBoatItem(BoatInit.EXAMPLE_CHEST_BOAT_ID, BoatInit.EXAMPLE_BOAT_KEY, true);
+
+
 
     public static <T extends Item> T register(String name, T item){
         return Registry.register(Registries.ITEM, MoreBlocks.id(name), item);
