@@ -194,19 +194,84 @@ public class MoreBlocksRecipeProvider extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(BlockInit.EXAMPLE_PLANKS), FabricRecipeProvider.conditionsFromItem(BlockInit.EXAMPLE_PLANKS))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_SANDSTONE_SMOOTH)
+
+
+
+
+        // DEEPSLATE CRAFTING
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_DEEPSLATE, 6)
+                .input('S', Blocks.DEEPSLATE)
+                .pattern("SSS")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.DEEPSLATE), FabricRecipeProvider.conditionsFromItem(Blocks.DEEPSLATE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.SLAB_DEEPSLATE, 6)
+                .input('S', Blocks.DEEPSLATE)
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.DEEPSLATE), FabricRecipeProvider.conditionsFromItem(Blocks.DEEPSLATE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.STAIRS_DEEPSLATE, 4)
+                .input('S', Blocks.DEEPSLATE)
+                .pattern("S  ")
+                .pattern("SS ")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.DEEPSLATE), FabricRecipeProvider.conditionsFromItem(Blocks.DEEPSLATE))
+                .offerTo(exporter);
+        // ------------------------------------------------------------------------------------------------------------------------------------------------ //
+
+        // SANDSTONE CRAFTING
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_SANDSTONE_SMOOTH_RED, 6)
+                .input('S', Blocks.SMOOTH_RED_SANDSTONE)
+                .pattern("SSS")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.SMOOTH_RED_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Blocks.SMOOTH_RED_SANDSTONE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_SANDSTONE_SMOOTH, 6)
                 .input('S', Blocks.SMOOTH_SANDSTONE)
                 .pattern("SSS")
                 .pattern("SSS")
                 .criterion(FabricRecipeProvider.hasItem(Blocks.SMOOTH_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_STONE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.STAIRS_SANDSTONE_CUT_RED, 4)
+                .input('S', Blocks.CUT_RED_SANDSTONE)
+                .pattern("S  ")
+                .pattern("SS ")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.CUT_RED_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Blocks.CUT_RED_SANDSTONE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.STAIRS_SANDSTONE_CUT, 4)
+                .input('S', Blocks.CUT_SANDSTONE)
+                .pattern("S  ")
+                .pattern("SS ")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.CUT_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Blocks.CUT_SANDSTONE))
+                .offerTo(exporter);
+
+        // ------------------------------------------------------------------------------------------------------------------------------------------------ //
+
+        // MISC CRAFTING
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_STONE, 6)
                 .input('S', Blocks.STONE)
                 .pattern("SSS")
                 .pattern("SSS")
                 .criterion(FabricRecipeProvider.hasItem(Blocks.STONE), FabricRecipeProvider.conditionsFromItem(Blocks.STONE))
                 .offerTo(exporter);
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_PURPUR, 6)
+                .input('S', Blocks.PURPUR_BLOCK)
+                .pattern("SSS")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.PURPUR_BLOCK), FabricRecipeProvider.conditionsFromItem(Blocks.PURPUR_BLOCK))
+                .offerTo(exporter);
+
+        // ------------------------------------------------------------------------------------------------------------------------------------------------ //
+
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.TRANSPORTATION, ItemInit.EXAMPLE_CHEST_BOAT)
                 .input(ItemInit.EXAMPLE_BOAT)

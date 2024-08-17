@@ -8,7 +8,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
-import net.minecraft.data.family.BlockFamilies;
 import net.minecraft.data.family.BlockFamily;
 
 public class MoreBlocksModelProvider extends FabricModelProvider {
@@ -91,12 +90,61 @@ public class MoreBlocksModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(SmoothSandstoneWallsFamily.getBaseBlock())
                 .family(SmoothSandstoneWallsFamily);
 
+        var CutSandstoneFamily = new BlockFamily.Builder(Blocks.CUT_SANDSTONE)
+                .stairs(BlockInit.STAIRS_SANDSTONE_CUT)
+                .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(CutSandstoneFamily.getBaseBlock())
+                .family(CutSandstoneFamily);
+
+        var CutSandstoneRedFamily = new BlockFamily.Builder(Blocks.CUT_RED_SANDSTONE)
+                .stairs(BlockInit.STAIRS_SANDSTONE_CUT_RED)
+                .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(CutSandstoneRedFamily.getBaseBlock())
+                .family(CutSandstoneRedFamily);
+
+
         var SmoothStoneWallFamily = new BlockFamily.Builder(Blocks.STONE)
                 .wall(BlockInit.WALL_STONE)
                 .build();
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(SmoothStoneWallFamily.getBaseBlock())
                 .family(SmoothStoneWallFamily);
+
+        var PurpurWallFamily = new BlockFamily.Builder(Blocks.PURPUR_BLOCK)
+                .wall(BlockInit.WALL_PURPUR)
+                .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(PurpurWallFamily.getBaseBlock())
+                .family(PurpurWallFamily);
+
+        var DeepslateWallFamily = new BlockFamily.Builder(Blocks.DEEPSLATE)
+                .wall(BlockInit.WALL_DEEPSLATE)
+                .slab(BlockInit.SLAB_DEEPSLATE)
+                .stairs(BlockInit.STAIRS_DEEPSLATE)
+                .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(DeepslateWallFamily.getBaseBlock())
+                .family(DeepslateWallFamily);
+
+
+
+
+
+
+
+
+        var SmoothRedSandstoneWallFamily = new BlockFamily.Builder(Blocks.SMOOTH_RED_SANDSTONE)
+                .wall(BlockInit.WALL_SANDSTONE_SMOOTH_RED)
+                .build();
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(SmoothRedSandstoneWallFamily.getBaseBlock())
+                .family(SmoothRedSandstoneWallFamily);
+
+
+
+
 
 
     }

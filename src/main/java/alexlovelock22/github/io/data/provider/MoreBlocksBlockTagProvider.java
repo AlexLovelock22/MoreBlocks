@@ -2,6 +2,7 @@ package alexlovelock22.github.io.data.provider;
 
 import alexlovelock22.github.io.MoreBlocks;
 import alexlovelock22.github.io.init.BlockInit;
+import alexlovelock22.github.io.list.BlockSetTypeList;
 import alexlovelock22.github.io.list.enums.TagList;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -98,11 +99,37 @@ public class MoreBlocksBlockTagProvider extends FabricTagProvider.BlockTagProvid
         getOrCreateTagBuilder(BlockTags.WALL_HANGING_SIGNS)
                 .add(BlockInit.EXAMPLE_WALL_HANGING_SIGN);
 
-        getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(BlockInit.WALL_SANDSTONE_SMOOTH);
 
+        // Sandstone
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(BlockInit.WALL_SANDSTONE_SMOOTH)
+                .add(BlockInit.WALL_SANDSTONE_SMOOTH_RED);
+
+//        getOrCreateTagBuilder(BlockTags.WALLS)
+//                .add(BlockInit.WALL_SANDSTONE_SMOOTH_RED);
+
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(BlockInit.STAIRS_SANDSTONE_CUT)
+                .add(BlockInit.STAIRS_SANDSTONE_CUT_RED);
+
+        // Deepslate
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(BlockInit.WALL_DEEPSLATE);
+
+        getOrCreateTagBuilder(BlockTags.SLABS)
+                .add(BlockInit.SLAB_DEEPSLATE);
+
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(BlockInit.STAIRS_DEEPSLATE);
+
+
+
+        // Other
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(BlockInit.WALL_STONE);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(BlockInit.WALL_PURPUR);
 
     }
 }

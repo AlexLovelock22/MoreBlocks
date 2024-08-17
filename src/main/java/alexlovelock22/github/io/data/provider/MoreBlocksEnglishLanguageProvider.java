@@ -71,9 +71,21 @@ public class MoreBlocksEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ItemInit.EXAMPLE_CHEST_BOAT, "Example Chest Boat");
         translationBuilder.add(TagList.Items.EXAMPLE_LOGS, "Example Logs");
 
-
+        // Sandstone
         translationBuilder.add(BlockInit.WALL_SANDSTONE_SMOOTH, "Smooth Sandstone Wall");
+        translationBuilder.add(BlockInit.WALL_SANDSTONE_SMOOTH_RED, "Smooth Red Sandstone Wall");
+        translationBuilder.add(BlockInit.STAIRS_SANDSTONE_CUT, "Cut Sandstone Stairs");
+        translationBuilder.add(BlockInit.STAIRS_SANDSTONE_CUT_RED, "Cut Sandstone Stairs");
+
+        // Deepslate
+        translationBuilder.add(BlockInit.STAIRS_DEEPSLATE, "Deepslate Stairs");
+        translationBuilder.add(BlockInit.WALL_DEEPSLATE, "Deepslate Wall");
+        translationBuilder.add(BlockInit.SLAB_DEEPSLATE, "Deepslate Slab");
+
+
+        // Other
         translationBuilder.add(BlockInit.WALL_STONE, "Stone Wall");
+        translationBuilder.add(BlockInit.WALL_PURPUR, "Purpur Wall");
 
         addText(translationBuilder, ItemGroupInit.MORE_BLOCKS_TITLE, "More Blocks");
     }

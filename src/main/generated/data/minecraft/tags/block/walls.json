@@ -1,6 +1,9 @@
 {
   "values": [
     "moreblocks:wall_sandstone_smooth",
-    "moreblocks:wall_stone"
+    "moreblocks:wall_smooth_sandstone_red",
+    "moreblocks:wall_deepslate",
+    "moreblocks:wall_stone",
+    "moreblocks:wall_purpur"
   ]
 }

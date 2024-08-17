@@ -236,24 +236,39 @@ public class BlockInit {
                             .burnable()));
 
 
-
+    // Smooth Sandstone / Red Sandstone
     public static final WallBlock WALL_SANDSTONE_SMOOTH = registerWithItem("wall_sandstone_smooth",
-            new WallBlock(AbstractBlock.Settings.create()
-                    .mapColor(MapColor.GOLD)
-                    .solid()
-                    .instrument(NoteBlockInstrument.BANJO)
-                    .strength(2.0F, 3.0F)
-                    .sounds(BlockSoundGroup.STONE)
-                    .burnable()));
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_SANDSTONE)));
 
+    public static final WallBlock WALL_SANDSTONE_SMOOTH_RED = registerWithItem("wall_smooth_sandstone_red",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_RED_SANDSTONE)));
+
+    public static final StairsBlock STAIRS_SANDSTONE_CUT_RED = registerWithItem("stairs_cut_sandstone_red",
+            new StairsBlock(Blocks.SMOOTH_RED_SANDSTONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CUT_RED_SANDSTONE)));
+
+    public static final StairsBlock STAIRS_SANDSTONE_CUT = registerWithItem("stairs_cut_sandstone",
+            new StairsBlock(Blocks.SMOOTH_RED_SANDSTONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)));
+
+
+    // Deepslate
+    public static final SlabBlock SLAB_DEEPSLATE = registerWithItem("slab_deepslate",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE)));
+
+    public static final StairsBlock STAIRS_DEEPSLATE = registerWithItem("stairs_deepslate",
+            new StairsBlock(Blocks.DEEPSLATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.DEEPSLATE)));
+
+    public static final WallBlock WALL_DEEPSLATE = registerWithItem("wall_deepslate",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE)));
+
+
+
+    // Other New Blocks
     public static final WallBlock WALL_STONE = registerWithItem("wall_stone",
-            new WallBlock(AbstractBlock.Settings.create()
-                    .mapColor(MapColor.GOLD)
-                    .solid()
-                    .instrument(NoteBlockInstrument.BANJO)
-                    .strength(2.0F, 3.0F)
-                    .sounds(BlockSoundGroup.STONE)
-                    .burnable()));
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STONE)));
+
+    public static final WallBlock WALL_PURPUR = registerWithItem("wall_purpur",
+           new WallBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK)));
+
 
 
     public static <T extends Block> T register(String name, T block) {
