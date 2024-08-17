@@ -243,11 +243,16 @@ public class BlockInit {
     public static final WallBlock WALL_SANDSTONE_SMOOTH_RED = registerWithItem("wall_smooth_sandstone_red",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_RED_SANDSTONE)));
 
+    public static final WallBlock WALL_SANDSTONE_CUT_RED = registerWithItem("wall_cut_sandstone_red",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.CUT_RED_SANDSTONE)));
+
     public static final StairsBlock STAIRS_SANDSTONE_CUT_RED = registerWithItem("stairs_cut_sandstone_red",
             new StairsBlock(Blocks.SMOOTH_RED_SANDSTONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CUT_RED_SANDSTONE)));
 
     public static final StairsBlock STAIRS_SANDSTONE_CUT = registerWithItem("stairs_cut_sandstone",
             new StairsBlock(Blocks.SMOOTH_RED_SANDSTONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)));
+
+
 
 
     // Deepslate

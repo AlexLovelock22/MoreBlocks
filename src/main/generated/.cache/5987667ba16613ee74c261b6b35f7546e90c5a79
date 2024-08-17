@@ -1,4 +1,4 @@
-// 1.21	2024-08-17T16:28:58.5756117	MoreBlocks/Tags for minecraft:block
+// 1.21	2024-08-17T21:47:07.8179051	MoreBlocks/Tags for minecraft:block
 f1a1d8e7167c82310993c610660b07fdbb507ddf data\minecraft\tags\block\wall_signs.json
 3c9632d242a70843e621956bb287868e8b180827 data\minecraft\tags\block\wooden_fences.json
 5b2b9cc91d1465cada650e36d77b3c3a5f4ab4bc data\minecraft\tags\block\logs_that_burn.json
@@ -6,8 +6,8 @@ a13e0a2ea813fbd7e6f7e04223915ea1edd9ab68 data\moreblocks\tags\block\example.json
 af43b0d8d5a15aa8b8ff77492d1694b968ca86e2 data\minecraft\tags\block\small_flowers.json
 20f05e9c129b3f8bf5353e22bea777db90249d1b data\minecraft\tags\block\wooden_slabs.json
 37b6faf47b36f5bf162ded5a565ce2b53363aba1 data\minecraft\tags\block\mineable\pickaxe.json
-440cc08bc34209db9e317a6b7c84bbc71cfb906b data\minecraft\tags\block\wooden_stairs.json
 87bac147db7bee450ebe378d441511044d0ebdef data\minecraft\tags\block\standing_signs.json
+440cc08bc34209db9e317a6b7c84bbc71cfb906b data\minecraft\tags\block\wooden_stairs.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\moreblocks\tags\block\incorrect_for_example_tool.json
 296559838cff3bd430995d9a389a8a54596f0a8e data\minecraft\tags\block\slabs.json
 37b6faf47b36f5bf162ded5a565ce2b53363aba1 data\minecraft\tags\block\needs_iron_tool.json

@@ -97,12 +97,18 @@ public class MoreBlocksModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(CutSandstoneFamily.getBaseBlock())
                 .family(CutSandstoneFamily);
 
+
+
+        // Broken area below. You can change CUT_RED_SANDSTONE to PRISMARINE or something and it will work.
         var CutSandstoneRedFamily = new BlockFamily.Builder(Blocks.CUT_RED_SANDSTONE)
+                .wall(BlockInit.WALL_SANDSTONE_CUT_RED)
                 .stairs(BlockInit.STAIRS_SANDSTONE_CUT_RED)
                 .build();
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(CutSandstoneRedFamily.getBaseBlock())
                 .family(CutSandstoneRedFamily);
+
+
 
 
         var SmoothStoneWallFamily = new BlockFamily.Builder(Blocks.STONE)

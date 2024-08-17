@@ -252,6 +252,13 @@ public class MoreBlocksRecipeProvider extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Blocks.CUT_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Blocks.CUT_SANDSTONE))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.WALL_SANDSTONE_CUT_RED, 6)
+                .input('S', Blocks.CUT_RED_SANDSTONE)
+                .pattern("SSS")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Blocks.CUT_RED_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
+                .offerTo(exporter);
+
         // ------------------------------------------------------------------------------------------------------------------------------------------------ //
 
         // MISC CRAFTING
